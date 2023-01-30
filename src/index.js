@@ -3,8 +3,8 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import ExtReactDOM from '@sencha/ext-react-modern';
-import './index.css';
 import App from './App';
+import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 ExtReactDOM.render(<App />, document.getElementById('root'));
@@ -13,3 +13,4 @@ ExtReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
